@@ -1,0 +1,154 @@
+* {
+    font-family: Inter, sans-serif;
+    background: #28282a;
+    color: #bffe2d;
+}
+
+header {
+    padding: 1rem;
+}
+
+.container {
+    margin: 1% 2%;
+}
+
+textarea{
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 18px;
+}
+
+.alert {
+    padding-top: 4px;
+}
+
+.text-alert{
+    color: #777;
+}
+
+
+div > p {
+    line-height: 60px;
+}
+
+.frame-ad {
+    border: 1px dashed #bffe2d;
+    border-radius: 5px;
+    /* flex */
+    display: flex;
+    justify-content: space-around;
+}
+
+.result, .wait {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.no, .doll {
+    display: none;
+}
+
+.frame-bttn {
+    margin: 1rem;
+
+    /* flex */
+    display: flex;
+    flex-direction: column;
+}
+
+.b {
+    line-height: 25px;
+    font: 400 14px;
+    background: none;
+    border: 1px solid #bffe2d;
+}
+
+.b:hover{
+    cursor: pointer;
+}
+
+.clear{
+    padding-top: 5px;
+    border: none;
+}
+
+.on {
+    background: #bffe2d;
+    color: #171717;
+}
+
+.copy {
+    border: .5px solid;
+    border-radius: 2px;
+    width: 80%;
+    margin: 16px;
+    transition: width 1s;
+}
+
+.copy:active {
+    width: 50%
+}
+
+footer {
+    margin-top: 4rem;
+    padding: 1rem;
+    
+    /* flex */
+    display: flex;
+    justify-content: center;
+}
+
+@media  screen and (min-width: 400px) {
+    
+    .frame-bttn {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .on, .off {
+        min-width: 11rem;
+    }
+
+    .clear {
+        border: none;
+        width: 5rem;
+    }
+}
+
+@media  screen and (min-width: 768px) {
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin: 1% 5%;
+    }
+    section {
+        height: 440px;
+    }
+    .ai {
+        width: 50%;
+    }
+    .ad {
+        width: 35%;
+    }
+    .frame-ad, .frame-ai {
+        height: 100%;
+    }
+    .doll {
+        display: block;
+        max-width: 16rem;
+        max-height: 16rem;
+    }
+    textarea{
+        height: 77%;
+        border: none;
+        resize: none;
+        box-sizing: border-box; 
+    }
+    .frame-bttn {
+        margin: 2rem 1rem auto;
+    }
+
+}
