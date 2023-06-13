@@ -1,13 +1,12 @@
-# uala | Encriptador de texto
+# ualá
 
-<img src='./src/img/preview.png'> 
+🔒 Esta es una aplicación para codificar y decodificar mensajes de texto de forma sencilla 
 
-📃 Resumen:
-Esta es una aplicación para codificar y decodificar mensajes de texto de forma sencilla.
+![UI](./src/img/preview.jpeg)
 
-Demo: https://leovfir.github.io/uala-encriptador/
+🔓 Demo: https://leovfir.github.io/uala-encriptador/
 
-📋 Requisitos:
+🔐 Requisitos:
 - Funciona solo con letras minúsculas, sin acentos ni caracteres especiales.
 - Debe ser posible convertir una palabra a su versión encriptada y viceversa.
 - La página debe tener campos de texto para ingresar el texto a encriptar o desencriptar.
@@ -21,8 +20,8 @@ Demo: https://leovfir.github.io/uala-encriptador/
 - "o" se convierte en "ober"
 - "u" se convierte en "ufat"
 
-Extras:
-- Botón para limpear el campo de texto.
+✨ Bonus:
+- Botón para limpiar/reiniciar los campos de textos.
 - Botón para copiar el texto encriptado/desencriptado al portapapeles.
 
 [Repositorio](https://github.com/leovfir/uala-encriptador)

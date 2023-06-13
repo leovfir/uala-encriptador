@@ -63,20 +63,20 @@ function clear(input) {
   input.focus();
 }
 
-const buttonE = document.querySelector("#on");
-const buttonD = document.querySelector("#off");
-const buttonCopy = document.querySelector("#copy");
-const buttonClear = document.querySelector("#clear");
+const bttnEn = document.querySelector("#on");
+const bttnDe = document.querySelector("#off");
+const bttnCopy = document.querySelector("#copy");
+const bttnClear = document.querySelector("#clear");
 
-buttonE.addEventListener("click", () => {
+bttnEn.addEventListener("click", () => {
   change(text_in.value);
 });
-buttonD.addEventListener("click", () => {
+bttnDe.addEventListener("click", () => {
   undo(text_in.value);
 });
-buttonCopy.addEventListener("click", () => {
+bttnCopy.addEventListener("click", () => {
   copy(text_out);
 });
-buttonClear.addEventListener("click", () => {
+bttnClear.addEventListener("click", () => {
   clear(text_in);
 });
